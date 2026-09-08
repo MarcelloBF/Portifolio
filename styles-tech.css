@@ -92,3 +92,11 @@ h1 { max-width: 650px; }
 	.plus-one { right: 18px; top: 220px; }
 	.plus-two { bottom: 18px; right: 28%; }
 }
+
+/* A formação usa a largura total para evitar uma coluna vazia ao lado da timeline. */
+.experience { display: block; }
+.experience .section-heading { display: grid; gap: 5vw; grid-template-columns: .7fr 1.2fr 1fr; margin-bottom: 55px; }
+.download-button { grid-column: auto; }
+@media (max-width: 760px) {
+	.experience .section-heading { display: block; }
+}
