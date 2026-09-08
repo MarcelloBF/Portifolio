@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Currículo de Marcello Bellotti Fargnolli.">
+  <title>Currículo | Marcello Bellotti Fargnolli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles-tech.css">
+  <style>
+    .resume-shell { margin: 0 auto; max-width: 1100px; padding: 0 5vw 100px; }
+    .resume-header { align-items: end; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; padding: 95px 0 38px; }
+    .resume-kicker { color: var(--lime); font: 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+    .resume-header h1 { font-size: clamp(3rem, 7vw, 6.5rem); margin: 22px 0 0; }
+    .resume-header h1 span { color: var(--blue); }
+    .resume-contact { color: var(--muted); font: 12px/2 var(--mono); text-align: right; }
+    .resume-contact a { color: var(--lime); display: block; }
+    .resume-section { border-bottom: 1px solid var(--line); display: grid; gap: 8vw; grid-template-columns: .65fr 1.35fr; padding: 68px 0; }
+    .resume-label { color: var(--blue); font: 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+    .resume-content { max-width: 650px; }
+    .resume-content h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); letter-spacing: -.07em; margin: 0 0 20px; }
+    .resume-content p { color: var(--muted); font-size: 15px; line-height: 1.8; margin-bottom: 18px; }
+    .resume-item { border-top: 1px solid var(--line); padding: 22px 0; }
+    .resume-item:first-child { border-top: 0; padding-top: 0; }
+    .resume-item h3 { font-size: 16px; margin-bottom: 8px; }
+    .resume-item small { color: var(--lime); font: 11px var(--mono); }
+    .resume-item p { font-size: 13px; margin: 12px 0 0; }
+    .resume-list { color: var(--muted); display: flex; flex-wrap: wrap; font: 12px/2 var(--mono); gap: 8px 24px; list-style: none; margin: 0; padding: 0; }
+    .resume-list li::before { color: var(--lime); content: '> '; }
+    .resume-back { margin-top: 34px; }
+    @media (max-width: 700px) { .resume-shell { padding-left: 20px; padding-right: 20px; }.resume-header, .resume-section { display: block; }.resume-header { padding-top: 65px; }.resume-contact { margin-top: 28px; text-align: left; }.resume-section { padding: 48px 0; }.resume-label { margin-bottom: 26px; display: block; } }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">MB</span><span>Marcello Bellotti Fargnolli<span class="accent">()</span></span></a>
+      <a class="button button-small button-outline" href="index.html">voltar ao portfólio <span aria-hidden="true">↗</span></a>
+    </header>
+    <main class="resume-shell">
+      <section class="resume-header">
+        <div><p class="resume-kicker">currículo / perfil profissional</p><h1>Marcello<br><span>Bellotti.</span></h1></div>
+        <div class="resume-contact"><a href="mailto:marcellofargnolli@gmail.com">marcellofargnolli@gmail.com</a><a href="https://github.com/MarcelloBF" target="_blank" rel="noreferrer">github.com/MarcelloBF</a><a href="https://www.linkedin.com/in/marcellobellotti/" target="_blank" rel="noreferrer">linkedin.com/in/marcellobellotti</a></div>
+      </section>
+      <section class="resume-section"><span class="resume-label">01 / perfil</span><div class="resume-content"><h2>Desenvolvedor em formação para atuar como Full Stack.</h2><p>Sou bacharel em Ciência da Computação e atualmente estou estudando Desenvolvimento Back-end com Python. Tenho conhecimentos em Front-end, principalmente HTML e CSS, e estou desenvolvendo minhas habilidades em JavaScript, APIs, bancos de dados e integração de sistemas.</p></div></section>
+      <section class="resume-section"><span class="resume-label">02 / formação</span><div class="resume-content"><div class="resume-item"><h3>Ciência da Computação</h3><small>Bacharelado concluído · Universidade São Judas Tadeu</small><p>Formado em Ciência da Computação, com base em programação, lógica, bancos de dados, estruturas de dados, inteligência artificial, engenharia de software e sistemas distribuídos.</p></div><div class="resume-item"><h3>Desenvolvimento Back-end com Python</h3><small>Curso em andamento</small><p>Estudos de Python, APIs, bancos de dados, integração de sistemas e desenvolvimento de aplicações.</p></div></div></section>
+      <section class="resume-section"><span class="resume-label">03 / certificados</span><div class="resume-content"><div class="resume-item"><h3>Lógica de programação: praticando com desafios</h3><small>Alura · 8 horas · 02 set. 2026</small></div><div class="resume-item"><h3>Lógica de programação: explore funções e listas</h3><small>Alura · 6 horas · 02 set. 2026</small></div><div class="resume-item"><h3>Pensamento computacional: fundamentos da computação e lógica de programação</h3><small>Alura · 8 horas · 28 jan. 2026</small></div></div></section>
+      <section class="resume-section"><span class="resume-label">04 / conhecimentos</span><div class="resume-content"><ul class="resume-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>APIs</li><li>Bancos de dados</li><li>Git</li><li>Lógica de programação</li><li>Estruturas de dados</li></ul></div></section>
+      <a class="button button-outline resume-back" href="index.html">voltar ao portfólio <span aria-hidden="true">↗</span></a>
+    </main>
+    <footer class="site-footer"><span>© 2026 Marcello Bellotti Fargnolli</span><span>currículo online</span></footer>
+  </div>
+</body>
+</html>

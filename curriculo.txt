@@ -1,0 +1,22 @@
+Marcello Bellotti Fargnolli
+Desenvolvedor Web
+marcellofargnolli@gmail.com | github.com/MarcelloBF | linkedin.com/in/marcellobellotti
+
+PERFIL
+Escreva aqui um resumo curto sobre sua experiência, seus interesses e o tipo de oportunidade que procura.
+
+EXPERIENCIA
+2023 - agora | Desenvolvedor Front-end Freelance
+Descreva seus principais projetos, responsabilidades e resultados.
+
+2022 - 2023 | Desenvolvedor Web | Empresa Exemplo
+Descreva suas principais atividades e tecnologias utilizadas.
+
+FORMACAO
+Nome do curso ou formação | Instituição | Ano de conclusão
+
+TECNOLOGIAS
+HTML, CSS, JavaScript, React, Git e Figma
+
+IDIOMAS
+Português (nativo) | Inglês (nível)
