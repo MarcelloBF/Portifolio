@@ -35,6 +35,7 @@ h1 { max-width: 650px; }
 
 .timeline-group + .timeline-group { margin-top: 42px; }
 .timeline-group-title { color: var(--text); font: 10px var(--mono); letter-spacing: .04em; margin: 0 0 14px; text-transform: uppercase; }
+.experience-intro { color: var(--muted); font-size: 14px; line-height: 1.7; margin: 35px 0 0; max-width: 310px; }
 .timeline-group-title:not(:has(.status-dot)) { color: var(--muted); }
 .timeline-group-title .status-dot { margin-right: 8px; }
 @media (max-width: 760px) {
